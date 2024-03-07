@@ -1,0 +1,148 @@
+body {
+    background-color: #19184C;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 300px; /* Adjust the maximum width as needed */
+    max-height: 300px; /* Adjust the maximum height as needed */
+    width: auto;
+    height: auto;
+}
+
+.content {
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    padding: 50px;
+    width: 80%;
+    /* height: ; */
+    box-sizing: border-box;
+    color: #000;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.label-icon {
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    /* justify-content: space-around; */
+}
+
+.icon {
+    width: 120px;
+    height: 120px;
+    padding-left: 20px;
+    flex-basis: 20%;
+}
+
+.product-found {
+    color: #19184C;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    /* padding-right: 85px; */
+    align-self: center;
+    width: 100%;
+}
+
+.pink-container {
+    background-color: #FFF6E8;
+    border-radius: 20px;
+    padding:30px 10% ;
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.product-name-title, .number-title {
+    font-size: 20px;
+    color: white;
+    padding: 3px 20px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.product-name-title {
+    justify-self: center;
+}
+
+
+.table {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #656487 ;
+    font-size: 16px;
+    padding: 5px 40px;
+
+}
+
+.titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 1000px) {
+    .icon {
+        width: 150px;
+        height: 150px;
+    }
+    .row  {
+        justify-content: space-around;
+    }
+    .titles  {
+        justify-content: space-around;
+    }
+    
+    .product-found {
+        font-size: 60px;
+    }
+    
+    .product-name, .number {
+        font-size: 24px;
+    }
+    .label-icon {
+        justify-content: space-around;
+        padding: 0 250px;
+    }
+    .icon {
+        /* flex-basis: auto; */
+        width: 100%;
+    }
+}
+
+.bg-yellow{
+    background-color: #FAA61A;
+}
